@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <h1>Aspect ratio CSS vs HTML Images</h1>
+    <h2>Scenario 1: CSS Background image</h2>
+    <div></div>
+
+    <h2>Scenario 2: HMTL image, default sizing</h2>
+    <img src="https://picsum.photos/500/300" alt="random loren picsum image">
+  
+    <h2>Scenario 3: HMTL image, responsive width</h2>
+    <img class="responsive" src="https://picsum.photos/500/300" alt="random loren picsum image">
+    
+    <h2>Scenario 4: HTML image, broken asoect ratio</h2>
+    <p>broken aaspect ratio n images happen when you define <em>both</em>a width and a height thah don't match them image's  native aspect ratio</p>
+    <img class="broken" src="https://picsum.photos/500/300" alt="random loren picsum image">
+
+    <h2>Scenario 5: HTMK image with width/height atributtes </h2>
+    <img class="attr" src="https://picsum.photos/500/300" alt="random loren picsum image">
+
+    <h2>SCenario 6: HTML Image with 'height:auto'</h2>
+    <img class="h-auto" src="https://picsum.photos/500/300" alt="random loren picsum image">
+
+
+    <h2>Scenario 7: HTML Image with 'object-fit'</h2>
+    <img class="o-fit" src="https://picsum.photos/500/300" alt="random loren picsum image">
+
+  
+  </main>
+  
+</body>
+</html>
