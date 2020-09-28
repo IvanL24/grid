@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox gallery</title>
+  <style>
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    figure {
+      height: 30vh;
+      flex-grow: 1;
+    }
+
+    img {
+      max-height: 100%;
+      min-width: 100%;
+      object-fit: cover;
+    }
+
+    div {
+      padding-left: 0;
+    }
+
+  </style>
+
+
+</head>
+<body>
+  <div class="gallery">
+    <figure>
+      <img src="/gallery/flex-masonry/img/_d_r_u_m_.png" alt="image">
+      <figcaption>figure 1: art</figcaption>
+    </figure>
+
+    <figure>
+      <img src="/gallery/flex-masonry/img/Annotation 2020-01-08 230123.png" alt="image">
+    </figure>
+
+    <figure>
+      <img src="/gallery/flex-masonry/img/Annotation 2020-01-08 230154.png" alt="image">
+    </figure>
+
+    <figure>
+      <img src="/gallery/flex-masonry/img/Annotation 2020-01-08 230214.png" alt="image">
+    </figure>
+
+    <figure>
+      <img src="/gallery/flex-masonry/img/Annotation 2020-01-08 230309.png" alt="image">
+    </figure>
+
+    <figure>
+      <img src="/gallery/flex-masonry/img/flower.png" alt="image">
+    </figure>
+
+    <figure>
+      <img src="/gallery/flex-masonry/img/shoot 1.png" alt="image">
+    </figure>
+  </div>
+  
+</body>
+</html>
